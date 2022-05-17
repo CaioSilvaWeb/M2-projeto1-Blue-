@@ -33,7 +33,7 @@ btAvancar.addEventListener("click", () => {
         btAvancar.value = 'oito';
     }else{
         imgUm.src = "img/Escudo9.png";
-        legendaUm.innerText = 'As principais alterações sao a utilização do escudo oficial sem a coroa e volta da cor primaria para um azul mais escuro. ';
+        legendaUm.innerText = 'As principais alteracoes sao a utilização do escudo oficial sem a coroa e volta da cor primaria para um azul mais escuro. ';
         btAvancar.value = 'um';
     }
 });
