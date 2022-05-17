@@ -36,6 +36,10 @@ article.conteudoJs {
   margin: 0 auto;
 }
 
+article.conteudoJs img{
+  height: 190px;
+}
+
 footer {
   display: flex;
   align-items: center;
