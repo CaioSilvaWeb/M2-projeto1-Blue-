@@ -5,7 +5,6 @@ body {
 }
 .content {
   height: 100vh;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -20,6 +19,7 @@ body {
 header img {
   margin: 0 auto;
 }
+
 
 article {
   display: flex;
@@ -83,4 +83,34 @@ p {
   border-radius: 6px;
   text-decoration: none;
   color: white;
+}
+
+@media (max-width: 810px){
+  h1 {
+    font-size: 26px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 500px){
+  h1 {
+    font-size: 20px;
+    margin: 0;
+  }
+  p {
+    font-size: 11px;
+  }
+
+  #btAvancar{
+    padding: 18px;
+    width: 125px;
+  }
+
+  #legendaUm{
+    margin-bottom: 0;
+    height: 41px;
+  }
+
 }
