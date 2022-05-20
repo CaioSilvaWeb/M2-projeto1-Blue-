@@ -13,7 +13,7 @@ btAvancar.addEventListener("click", () => {
         btAvancar.value = 'tres';
     }else if(btAvancar.value == 'tres'){
         imgUm.src = "img/Escudo4.png";
-        legendaUm.innerText = '- Nome foi para dentro do escudo e por extenso e inversao do posicionamento das estrelas';
+        legendaUm.innerText = 'Nome foi para dentro do escudo e por extenso e inversao do posicionamento das estrelas';
         btAvancar.value = 'quatro';
     }else if(btAvancar.value == 'quatro'){
         imgUm.src = "img/Escudo5.png";
@@ -33,7 +33,7 @@ btAvancar.addEventListener("click", () => {
         btAvancar.value = 'oito';
     }else{
         imgUm.src = "img/Escudo9.png";
-        legendaUm.innerText = 'As principais alteracoes sao a utilização do escudo oficial sem a coroa e volta da cor primaria para um azul mais escuro. ';
+        legendaUm.innerText = 'As principais alteracoes sao a utilizacao do escudo oficial sem a coroa e volta da cor primaria para um azul mais escuro. ';
         btAvancar.value = 'um';
     }
 });
